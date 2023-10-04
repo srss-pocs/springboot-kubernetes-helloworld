@@ -8,6 +8,6 @@ Steps
 3. kubectl create secret docker-registry myregistrykey --docker-server=docker.io --docker-username=xxxxx --docker-password=xxxx --docker-email=xxxx@xxx.com
 4. Create 2 files [pod and service yaml]
 5. kubtl apply -f .
-6. kubectl port-forward service/springboothelloworld-service 8082:8080 --address='0.0.0.0'
+6. kubectl port-forward service/springboothelloworld-service 8082:8080
 
    
